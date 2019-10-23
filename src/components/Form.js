@@ -4,6 +4,7 @@ class Form extends React.Component {
   state = {
     firstName: "John",
     lastName: "Henry"
+    submittedData: []
   }
 
   handleFirstNameChange = event => {
